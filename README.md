@@ -4,6 +4,10 @@ A web tool port of **Bowen Moreno's Film Estimator BETA 1.0** spreadsheet. Estim
 
 An original idea and math by Bowen Moreno — this is a standalone web version, built with his permission.
 
+> 🎬 **Try it live →** [humanmint.github.io/bowens-film-estimator](https://humanmint.github.io/bowens-film-estimator/)
+>
+> Works on desktop and mobile · no sign-in · no backend · your data stays in your browser
+
 ## Status — Phase 1
 
 This is a **1:1 port** of Bowen's math. The layout is reimagined for desktop + mobile, but every formula (including the quirky hidden constants and the total-row FPS shortcut) is preserved exactly. Phase 2 will reimagine features — see [`PHASE2.md`](./PHASE2.md).
@@ -64,7 +68,11 @@ src/
 
 ## Credit
 
-Math + original tool: **Bowen Moreno** — [Film Estimator BETA 1.0 (Google Sheet)](https://docs.google.com/spreadsheets/d/1Vsca3YlbtujCdsI6l5SyD8Cg0LLcW8Lj/htmlview#gid=806328926).
-Every formula in `src/lib/calc.js` mirrors a cell in Bowen's sheet.
+Math + original tool by **Bowen Moreno** — go say hi:
+
+- 🎞️ Original spreadsheet: [Film Estimator BETA 1.0 (Google Sheet)](https://docs.google.com/spreadsheets/d/1Vsca3YlbtujCdsI6l5SyD8Cg0LLcW8Lj/htmlview#gid=806328926)
+- 📷 Instagram: [@bowen_m](https://www.instagram.com/bowen_m/)
+
+Every formula in `src/lib/calc.js` mirrors a cell in Bowen's sheet — if the math is right, the credit is his.
 
 Web port: **Ha Joon Park**.
