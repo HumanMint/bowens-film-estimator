@@ -2,7 +2,7 @@
 
 A web tool port of **Bowen Moreno's Film Estimator BETA 1.0** spreadsheet. Estimates how much film stock a cinematography shoot will consume, given stock / perf / magazine / fps and a shot-by-shot schedule.
 
-Part of the [vibing](../README.md) (Atlas Lens Co.) workspace.
+An original idea and math by Bowen Moreno — this is a standalone web version, built with his permission.
 
 ## Status — Phase 1
 
@@ -16,7 +16,7 @@ This is a **1:1 port** of Bowen's math. The layout is reimagined for desktop + m
 
 ## Design
 
-Working name **"Dailies."** — film-can label + contact-sheet aesthetic. `Instrument Serif` display + `JetBrains Mono` body, Kodak amber `#ffb700` accent, grain overlay, gaffer-tape section labels. Intentionally distinct from the Atlas brand gold used elsewhere in the workspace.
+Working name **"Dailies."** — film-can label + contact-sheet aesthetic. `Instrument Serif` display + `JetBrains Mono` body, Kodak amber `#ffb700` accent, grain overlay, gaffer-tape section labels.
 
 ## Dev
 
@@ -67,4 +67,4 @@ src/
 Math + original tool: **Bowen Moreno** — [Film Estimator BETA 1.0 (Google Sheet)](https://docs.google.com/spreadsheets/d/1Vsca3YlbtujCdsI6l5SyD8Cg0LLcW8Lj/htmlview#gid=806328926).
 Every formula in `src/lib/calc.js` mirrors a cell in Bowen's sheet.
 
-Web port: HumanMint, part of the Atlas Lens Co. suite.
+Web port: **Ha Joon Park**.

@@ -40,10 +40,6 @@ The spreadsheet's base-ft/sec constants are `0.6006006006006006`, `1.50375939849
 - **Call sheet format.** PDF layout that matches how ADs/1st ACs actually use schedules.
 - **ICS calendar export.** Drop the shoot into calendar apps with times.
 
-### Integration with the Atlas Vision suite
-- **Link stock + perf → sensor framing.** If you shoot 35mm 3-perf 2.00:1, surface which Atlas sensors match the frame aperture via `atlas-vision`'s cameras.csv.
-- **Anamorphic-squeeze-aware footage math.** Already have `anamorphic-tutorial` for the optics; phase 2 could cross-reference squeeze choice with base ft/sec for proper anamorphic projects.
-
 ### Data / persistence
 - **Supabase / Firebase backend** (if collaboration is desired) — very optional.
 - **Versioned localStorage migrations.** The store already keys under `film-estimator.v1`; bump + migrate on schema changes.
